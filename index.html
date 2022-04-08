@@ -1,0 +1,518 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>FLEXBOX</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+      </style>
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+         <div class="header__top">
+            <div class="container">
+               <div class="header__top_body">
+                  <div class="header__top_text">МОСОБЛБУХ – бухгалтерский аутсорсинг, с которым растет ваша прибыль</div>
+                  <div class="header__top_contact">
+                     <div class="header__top_contact_email"><a href="mailto:studentdima21@gmail.com">studentdima21@gmail.com</a></div>
+                     <div class="header__top_contact_tel"><a href="tel:+380953125802">+38 (095) 312-57-02</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <header class="header">
+            <div class="container">
+               <div class="header__body">
+                  <div class="header__row">
+                     <div class="header__body_logo">
+                        <img src="./img/logo.svg" alt="">
+                     </div>
+                     <div class="header__body_nav">
+                        <ul class="nav">
+                           <li><a href="">О нас</a></li>
+                           <li><a href="">Услуги</a></li>
+                           <li><a href="">Тарифы</a></li>
+                           <li><a href="">Отзывы</a></li>
+                           <li><a href="">Контакты</a></li>
+                        </ul>
+                     </div>
+                     <div class="header__body_media">
+                        <ul class="media">
+                           <li><a href="https://telegram.org/" target="blank"><img src="./img/Telegram.svg" alt=""></a></li>
+                           <li><a href="https://github.com/" target="blank"><img src="./img/Github.svg" alt=""></a></li>
+                           <li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="blank"><img src="./img/JS.svg" alt=""></a></li>
+                        </ul>
+                     </div>
+                     <button class="header__body_button" type="submit">Заказать звонок</button>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div class="heroscreen">
+            <div class="container">
+               <div class="heroscreen__body">
+                  <div class="heroscreen__column">
+                     <div class="heroscreen__column_title">Бухгалтерские <br>
+                     услуги для ИП и ООО</div>
+                     <div class="heroscreen__column_text">Берем на себя ведение бухгалтерии,
+                     освобождая Ваше время для развития бизнеса.</div>
+                     <div class="heroscreen__column_btn">
+                        <button>Рассчитать стоимость</button>
+                        <div class="heroscreen__column_video">
+                           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="black" src=""><span class="test">Посмотрите <br> видео презентацию</spa></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="heroscreen__img">
+                     <img src="./img/top.jpg" alt="">
+                  </div>
+               </div>
+               <div class="banner">
+                  <div class="banner__body">
+                     <div class="banner__row">
+                        <div class="banner__item">
+                           <div class="banner__name">10 лет +</div>
+                           <div class="banner__text">На рынке</div>
+                        </div>
+                        <div class="banner__item">
+                           <div class="banner__name">70+</div>
+                           <div class="banner__text">Довольных клиентов</div>
+                        </div>
+                        <div class="banner__item">
+                           <div class="banner__name">менее 10 мин</div>
+                           <div class="banner__text">На ответ от бухгалтера</div>
+                        </div>
+                        <div class="banner__item">
+                           <div class="banner__name">2 млн+</div>
+                           <div class="banner__text">На оптимизации</div>
+                        </div>
+                        <div class="banner__item">
+                           <div class="banner__name">0₽ доплат</div>
+                           <div class="banner__text">Работаем по системе
+                           «все включено»</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="suppose">
+            <div class="container">
+               <div class="suppose__body">
+                  <div class="suppose__columns">
+                     <div class="suppose__row">
+                        <div class="suppose__item">
+                           <div class="suppose__item_img">
+                              <img src="./img/face.png" alt="">
+                           </div>
+                           <div class="suppose__item_text">
+                              <div class="suppose__item_text-title">Онлайн бухгалтерия
+                              с ООО «МОСОБЛБУХ»</div>
+                              <div class="suppose__item_text-name-inst">
+                                 <div class="suppose__item_text-name">МАРИЯ РЯЗАНЦЕВА</div>
+                                 <a href="#"><img src="./img/green-inst.svg" alt=""></a>
+                              </div>
+                              <div class="suppose__item_text-discription">Основатель компании ООО «МОСОБЛБУХ»</div>
+                              <div class="suppose__item_text-about">«С 2008г занимаюсь ведением бухгалтерии предпринимателей и юридических лиц. Сама, являясь и главным бухгалтером, и
+                              предпринимателем, с уверенностью могу сказать, что знаю основные боли, проблемы и потребности бизнеса относительно
+                              бухгалтерского и налогового учета.
+                              <br> Со своей командой активных и современных бухгалтеров мы заботливо сопровождаем своих клиентов, а не просто ведем им
+                              бухгалтерский учет.»</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="suppose__row2">
+                        <div class="suppose__row2-offer">
+                           <div class="suppose__row2_title">Что мы предлагаем</div>
+                           <div class="suppose__row2_text">Бухгалтерские услуги организациям</div>
+                        </div>
+                        <div class="suppose__row2_items">
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name"><p>БУХГАЛТЕРСКОЕ СОПРОВОЖДЕНИЕ</p></div>
+                              <div class="suppose__row2_item-text">Полное ведение бухгалтерского учета на аутсорсинге для ИП и ООО</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">КАДРОВОЕ ДЕЛОПРОИЗВОДСТВО</div>
+                              <div class="suppose__row2_item-text">Кадровый учет и отчетность для ООО и ИП</div>
+                           </div>             
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">ВОССТАНОВЛЕНИЕ БУХГАЛТЕРСКОГО УЧЕТА</div>
+                              <div class="suppose__row2_item-text">Восстановление бух. учета для ООО и ИП за предыдущие периоды деятельности</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">РЕГИСТРАЦИЯ ФИРМ</div>
+                              <div class="suppose__row2_item-text">Консультирование, подготовка документов, электронная регистрация ИП и ООО</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">ОПТИМИЗАЦИЯ НАЛОГООБЛОЖЕНИЯ</div>
+                              <div class="suppose__row2_item-text">Услуги по оптимизации налогов в рамках бухгалтерского сопровождения ООО и ИП</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">СДАЧА НУЛЕВОЙ ОТЧЁТНОСТИ</div>
+                              <div class="suppose__row2_item-text">Формирование и сдача нулевой отчетности для ООО и ИП</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">ЭЛЕКТРОННАЯ ОТЧЕТНОСТЬ И ЭЦП</div>
+                              <div class="suppose__row2_item-text">Подключение к электронной отчетности и изготовление электронной цифровой подписи (ЭЦП)</div>
+                           </div>
+                           <div class="suppose__row2_item">
+                              <div class="suppose__row2_item-name">
+                                 <img src="../img/benefit.svg" alt="">
+                              </div>
+                              <div class="suppose__row2_item-text">P.S. При заключении договора на бухгалтерское сопровождение экспресс <p class="benefit">АУДИТ В ПОДАРОК!</p></div>
+                           </div>
+                           
+                           
+                           
+                           
+                          
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="consultation">
+            <div class="container">
+               <div class="consultation__body">
+                  <div class="consultation__row">
+                     <div class="consultation__column">
+                        <div class="consultation__column_title">Получите бесплатную
+                           консультацию, на которой</div>
+                        <ul class="consultation__column_list">
+                           <li>Обсудим текущее положение дел вашей бухгалтерии</li>
+                           <li>Дадим рекомендации</li>
+                           <li>Сделаем предварительный расчет</li>
+                        </ul>
+                        <button class="consultation__column_btn">заказать звонок</button>
+                     </div>
+                     <div class="consultation__img">
+                        <img src="./img/consultation.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="problems">
+            <div class="container">
+               <div class="problems__body">
+                  <div class="problems__title">Наше бухгалтерское
+                   <br> сопровождение для Вас, если:</div>
+                  <div class="problems__row">
+                     <div class="problems__box">
+                        <div class="problems__item">
+                           <div class="problems__item_name">Вы стремитесь к развитию бизнеса и выбираете оптимизацию расходов</div>
+                           <div class="problems__item_text">Бухгалтерское обслуживание от нашей компании позволит заняться вам развитием и сэкономить на содержании штатного
+                           бухгалтера</div>
+                        </div>
+                        <div class="problems__item">
+                           <div class="problems__item_name">Вы начинающий предприниматель или директор компании</div>
+                           <div class="problems__item_text">Поможем определиться с выбором ИП или ООО, с системой налогообложения, настроим ведение бухгалтерского учета</div>
+                        </div>
+                        <div class="problems__item">
+                           <div class="problems__item_name">У Вас ушел бухгалтер, запущен учет</div>
+                           <div class="problems__item_text">Мы оперативно оценим текущее состояние бухучета и при необходимости восстановим его</div>
+                        </div>
+                        <div class="problems__item">
+                           <div class="problems__item_name">Вас не устраивает текущее ведение бухгалтерии</div>
+                           <div class="problems__item_text">Учтем замечание к предыдущему бухгалтеру или бухгалтерскойкомпании    и не допустим их в своей работе</div>
+                        </div>
+                     </div>
+                     <div class="problems__img">
+                        <img src="./img/trobles.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="plus">
+            <div class="container">
+               <div class="plus__body">
+                  <div class="plus__name">Наши преимущества</div>
+                  <div class="plus__text">С нами <span>НАДЁЖНО, ВЫГОДНО И УДОБНО</span> работать. Мы предоставляем своим клиентам больше, чем просто бухгалтерское
+                  сопровождение.</div>
+                  <div class="plus__row">
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-1.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">Персональный бухгалтер</div>
+                        <div class="plus__item_text">Для Вас выделяется персональный бухгалтер, который всегда на связи в режиме он-лайн и готов помочь в решение ваших
+                        вопросов.</div>
+                     </div>
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-2.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">Снижение налогов</div>
+                        <div class="plus__item_text">Мы уделяем пристальное внимание налоговой оптимизации и налоговой безопасности наших клиентов и минимизируем налоговые
+                        риски.</div>
+                     </div>
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-3.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">100% ответственность</div>
+                        <div class="plus__item_text">Мы несем полную материальную ответственность за ведение бухгалтерского и налогового учета. Вы застрахованы от штрафов и
+                        непредвиденных платежей</div>
+                     </div>
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-4.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">Экономия на бухгалтерии</div>
+                        <div class="plus__item_text">Ведение бухгалтерии на аутсорсинге обойдется вам на 30-40 % дешевле, чем содержание штатного или приходящего бухгалтера.</div>
+                     </div>
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-5.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">Оптимизация расходов</div>
+                        <div class="plus__item_text">Мы предлагаем различные тарифы обслуживания, под потребности Вашего бизнеса, Вы сберегаете средства и платите только за
+                        то, что действительно нужно.</div>
+                     </div>
+                     <div class="plus__item">
+                        <div class="plus__item_logo">
+                           <img src="./img/i-6.svg" alt="">
+                        </div>
+                        <div class="plus__item_name">Удобная работа онлайн</div>
+                        <div class="plus__item_text">В нашей работе мы используем современные технологии, серверное хранение и электронный документооборот. Это удобно.</div>
+                     </div>
+                  </div>
+                  <!-- <div class="table">
+                     <div class="table__name">Тарифы</div>
+                     <div class="table__text">Стоимость бухгалтерских услуг для юридических лиц</div>
+                     <div class="table">
+                        <div class="table__header">
+                           <div>Услуги</div>
+                           <div>Старт</div>
+                           <div>Стандарт</div>
+                           <div>VIP</div>
+                           <div>Premium</div>
+                        </div>
+                        <div class="table__row">
+                           <div>Сдача отчетности</div>
+                           <div>Расчет налогов</div>
+                           <div>Подготовка платежей поналогам</div>
+                           <div>Расчет зарплаты</div>
+                           <div>Кадровое сопровождение</div>
+                           <div>Кассовая дисциплина</div>
+                           <div>Первичные документы</div>
+                           <div>Работа в банк-клиенте</div>
+                           <div>Оптимизация налогообложения</div>
+                           <div>Решение вопросов с контролирующими органами</div>
+                           <div>Управленческий учет</div>
+                           <div>Индивидуальные условия работы</div>
+                        </div>
+                     </div>
+                  </div> -->
+
+               </div>
+            </div>
+         </section>
+         <section class="about">
+            <div class="container">
+               <div class="about__body">
+                <div class="about__descr">
+                     <div class="about__name">О нас</div>
+                     <p class="about__text">Наша компания успешно работает с 2008г. как Бухгалтерская фирма "АРМО" (ИП Рязанцева Мария Олеговна), а с 2021 как
+                     Бухгалтерская фирма "МОСОБЛБУХ" (ООО "МОСОБЛБУХ".</p>
+                     <p class="about__text">За это время мы познакомились со многими проблемами бухгалтерского учета владельцев бизнеса. Мы принимаем в работу как
+                     компании с запущенным бухучетом, так и вновь созданные, которые не знают с чего начать ведение учета и как сдавать
+                     отчетность. Довольно часто возникают такие вопросы, которые требуют быстрого решения и отнимают много времени.</p>
+                     <p class="about__text">Мы собрали все преимущества ведения бухгалтерии штатным специалистом, онлайн бухгалтерией и приходящим бухгалтером,
+                     поработали над усовершенствованием модели удаленного сопровождения и создали свой продукт бухгалтерского аутсорсинга с
+                     выгодными преимуществами. Мы гордимся тем, что наши клиенты рекомендуют нас своим партнерам и коллегам.</p>
+                </div>
+                <div class="about__img">
+                   <img src="./img/about.jpg" alt="">
+                </div>
+               </div>
+               <div class="about__us">
+                  <div class="about__us_name">Наша команда</div>
+                  <div class="about__us_row">
+                     <div class="about__us_row_item">
+                        <div class="about__us_row_img">
+                           <img src="./img/item-1.jpg" alt="" width="300px">
+                        </div>
+                        <div class="about__us_row_name">Ирина Бочарникова</div>
+                        <div class="about__us_row_text">Ведущий бухгалтер Руководитель рабочей группы</div>
+                     </div>
+                     <div class="about__us_row_item">
+                        <div class="about__us_row_img">
+                           <img src="./img/item-2.jpg" alt="" width="300px">
+                        </div>
+                        <div class="about__us_row_name">Ирина Бочарникова</div>
+                        <div class="about__us_row_text">Ведущий бухгалтер Руководитель рабочей группы</div>
+                     </div>
+                     <div class="about__us_row_item">
+                        <div class="about__us_row_img">
+                           <img src="./img/item-2.jpg" alt="" width="300px">
+                        </div>
+                        <div class="about__us_row_name">Ирина Бочарникова</div>
+                        <div class="about__us_row_text">Ведущий бухгалтер Руководитель рабочей группы</div>
+                     </div>
+                     <div class="about__us_row_item">
+                        <div class="about__us_row_img">
+                           <img src="./img/item-2.jpg" alt="" width="300px">
+                        </div>
+                        <div class="about__us_row_name">Ирина Бочарникова</div>
+                        <div class="about__us_row_text">Ведущий бухгалтер Руководитель рабочей группы</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="review">
+            <div class="container">
+               <div class="review__body">
+                  <div class="review__name">Отзывы</div>
+                  <div class="review__row">
+                     <div class="review__item">
+                        <div class="review__item_stars">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                        </div>
+                        <div class="review__item_text">
+                           Скоро будет 10 лет как мы работает с Марией Олеговной Рязанцевой. Ее аккуратность, ответственное отношение,
+                           безотказность в работе, грамотность и опыт - важные составляющие успешной деятельности нашего предприятия на протяжении
+                           многих лет. Надеемся и дальше работать вместе.
+                        </div>
+                        <div class="review__item_person">
+                           <div class="review__item_person_img">
+                              <img src="./img/person1.jpg" alt="">
+                           </div>
+                           <div class="data">
+                              <div class="data__name">Николай Белковский</div>
+                              <div class="data__job">Руководитель предприятия Салмо.ру</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="review__item">
+                        <div class="review__item_stars">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                           <img src="./img/stars.svg" alt="">
+                        </div>
+                        <div class="review__item_text">
+                           Благодарен за оперативное открытие юридического лица, помогли со сбором документов и освободили от
+                           посещения всех инстанций. Бухгалтерия ведется без нареканий
+                        </div>
+                        <div class="review__item_person">
+                           <div class="review__item_person_img">
+                              <img src="./img/person2.jpg" alt="">
+                           </div>
+                           <div class="data">
+                              <div class="data__name">Антон Чехов</div>
+                              <div class="data__job">Заместитель руководителя предприятия Салмо.ру</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+         <section class="send">
+            <div class="container">
+               <div class="send_row">
+                  <div class="send__columns">
+                     <div class="send__column">
+                        <div class="send__column_title">Отправьте заявку на расчет <br> стоимости бухгалтерских услуг</div>
+                        <div class="send__column_subtitle">Введите свои контактные данные, оставьте комментарий и мы свяжемся с Вами в самое ближайшее время!</div>
+                        <div class="send__column_place">Киевськая область, г.Киев, ул.Шевченка дом 14 этаж 2, офис 77</div>
+                        <div class="send__column_adress"><a href="mailto:heybiatch@gmail.com">heyfriend@gmail.com</a></div>
+                        <div class="send__column_tel"><a href="tel:+380953125702">+380953125702</a></div>
+                        <div class="send__column_media">
+                        <ul class="media">
+                           <li><a href=""><img src="./img/Telegram.svg" alt=""></a></li>
+                           <li><a href=""><img src="./img/Github.svg" alt=""></a></li>
+                           <li><a href=""><img src="./img/JS.svg" alt=""></a></li>
+                        </ul>
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="comment">
+                     <div class="comment__item">
+                        <div class="name">
+                           <p>name</p>
+                           <div class="comment__item_name">
+                              <input type="text" placeholder="name">
+                           </div>
+                        </div>
+                           <div class="telephone">
+                                 <p>telephone</p>
+                              <div class="comment__item_tel">
+                                 <input type="tel" placeholder="number">
+                              </div>
+                           </div>         
+                        <div class="textarea">
+                           <p>comment</p>
+                           <textarea name="comment"></textarea>
+                        </div>
+                           <input type="checkbox"> Я согласен на обработку данных
+                        <button class="comment__item_bth" type="submit">send</button>
+                     </div>
+                  </div> 
+               </div>
+               <div class="send__won">
+                  <div class="send__won_name">Сертификаты</div>
+                  <div class="send__won_row">
+                     <img src="./img/won1.jpg" alt="">
+                     <img src="./img/won2.jpg" alt="">
+                     <img src="./img/won3.jpg" alt="">
+                     <img src="./img/won4.jpg" alt="">
+                     <img src="./img/won5.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__body">
+                  <div class="footer__row">
+                     <div class="footer__row_left">
+                        <div class="footer__row_left_logo">
+                           <img src="./img/footer.svg" alt="">
+                        </div>
+                        <div class="footer__row_left_text">МОСОБЛБУХ – бухгалтерский аутсорсинг, с которым растет ваша прибыль</div>
+                     </div>
+                     <div class="footer__row_right">
+                        <div class="footer__row_right_title">Ссылки</div>
+                        <div class="footer__row_right_links">
+                           <ul class="links">
+                              <li><a href="#">Услуги</a></li>
+                              <li><a href="#">Тарифы</a></li>
+                              <li><a href="#">O компании</a></li>
+                              <li><a href="#">Отзывы</a></li>
+                              <li><a href="#">Контакты</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer__row_right_text">Все предложения, размещенные на сайте, не являются публичной офертой.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         
+		</div>
+	</body>
+</html>
